@@ -8,7 +8,7 @@
 .. 3. subject_test
 … Merge put all data together related to test
 … All the same last 3 steps for train
-… *Merge all data*
+"\t" **Merge all data**
 3. Create the tidy data
 
 
@@ -19,7 +19,7 @@ This function is in charge of:
 2. Transform the lines in rows and columns
 3. Naming the columns with numbers 
 4. Select the columns that we are interested in (it does through selected_col)
-.. * See the rest
+.. ** See the rest**
 
 ### Get_subject
 #### As parameter, its will receive the test and train dirs
@@ -40,7 +40,7 @@ This function is in charge of:
 3. Call to get the subject
 4. Join all data from the same source (train and later test)
 5. Merge all data, train and test, all together
-*As result, we have the data from test, train, subject and activity*
+**As result, we have the data from test, train, subject and activity**
 
 ### The rest code
 Here we can find the “main” code, which prepare some variables and calls to merge_all.
@@ -49,4 +49,4 @@ Here we can find the “main” code, which prepare some variables and calls to 
 3. Get the test and train dirs
 4. Call to merge_all
 5. set colnames
-6. *Create the tidy_data* with the result of merge all
+6. **Create the tidy_data** with the result of merge all
