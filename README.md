@@ -1,2 +1,11 @@
-# Getting_and_cleaning_data
-Getting_and_cleaning_data
+#README
+
+## Get_data function
+
+## Get_subject
+
+
+## Get_activity
+
+
+## Merge_all
