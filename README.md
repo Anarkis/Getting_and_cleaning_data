@@ -1,14 +1,16 @@
 #README
 
 ## How it works
-1. Create some variables, get test and train dirs and call to merge_all
+First at all, It supposes that all the files are in the correct location, and they aren’t missing anyone
+ 
+1. Create some variables, get test and train dir and call to merge_all
 2. Merge_all call to:
-.. 1. get_data
-.. 2. get_activity
-.. 3. subject_test
-… Merge put all data together related to test
-… All the same last 3 steps for train
-**Merge all data**
+	1. get_data
+	2. get_activity
+	3. subject_test
+	4. Merge put all data together related to test
+	5. The same last 3 steps for train
+	6. **Merge all data**
 3. Create the tidy data
 
 
@@ -19,7 +21,7 @@ This function is in charge of:
 2. Transform the lines in rows and columns
 3. Naming the columns with numbers 
 4. Select the columns that we are interested in (it does through selected_col)
-.. **See the rest**
+* See the rest
 
 ### Get_subject
 #### As parameter, its will receive the test and train dirs
@@ -31,7 +33,7 @@ This function will select the subjects, reading the file subject_test.txt or sub
 This function will select the activity label, reading the file y_test.txt or y_train.txt depending on the parameter
 1. Read the activity_id
 2. Match selected activity_id with the vector activity_labels.
-.. activity_labels works as key,value where the Key = Id, Value = Activity_label. We have the id, and we want get the label
+	** activity_labels works as key,value** where the Key = Id, Value = Activity_label. We have the id, and we want get the label
 
 ### Merge_all
 This function is in charge of:
