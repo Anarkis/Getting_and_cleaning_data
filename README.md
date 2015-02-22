@@ -9,8 +9,8 @@ First at all, It supposes that all the files are in the correct location, and th
 	2. get_activity
 	3. subject_test
 	4. Merge put all data together related to test
-	5. The same last 3 steps for train
-	6. **Merge all data**
+	5. The same last 4 steps for train
+	6. **Merge train and test data** 
 3. Create the tidy data
 
 
